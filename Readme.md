@@ -40,31 +40,79 @@ Para usar **Normalizator**, necesitas:
 
 ---
 
-💻 Instalación de FFmpeg
+**Instalación de FFmpeg**
 
-En macOS:
+---
+**macOS**
 
-Instala Homebrew si no lo tienes: https://brew.sh
-🏃‍♂️ Ejemplos de uso
+Opción 1-Usando la **app de macOS** (ya viene con FFmpeg integrado en la app)
 
-Usando la app de macOS:
+1-Abre la aplicación **Normalizator**
 
-Abre la aplicación .app
+2-Selecciona el archivo o la carpeta de audios, y la carpeta de destino
 
-Selecciona el archivo o la carpeta de audios
+3-Ajusta los valores de RMS y Peak
 
-Ajusta los valores de RMS y Peak
+4-Presiona Normalizar
 
-Presiona Normalizar
+En unos minutos tendrás las pistas normalizadas
 
-Usando el script normalize.sh:
+---
+Opción 2-Usando la **terminal**
+
+1-Instala Homebrew si no lo tienes: abre la Terminal y sigue las instrucciones de https://brew.sh
+
+1-Luego abre la Terminal y escribe: brew install ffmpeg
+
+3-Verifica que esté instalado escribiendo en la Terminal: ffmpeg -version
+
+---
+**Windows**
+
+1-Descarga FFmpeg desde https://ffmpeg.org/download.html
+
+2-Descomprime el ZIP en una carpeta de tu elección
+
+3-Añade la carpeta bin al PATH del sistema
+
+4-Abre CMD o PowerShell y escribe: ffmpeg -version para verificar que funciona
+
+---
+
+**Linux**
+
+**Ubuntu/Debian:**
+
+1-Abre la Terminal
+
+2-Escribe: sudo apt update
+
+3-Luego: sudo apt install ffmpeg
+
+4-Verifica: ffmpeg -version
+
+**Fedora:**
+
+1-Abre la Terminal
+
+2-Escribe: sudo dnf install ffmpeg
+
+3-Verifica: ffmpeg -version---
+
+---
+
+**Ejemplos de uso
+Usando el script normalize.sh**
 
 Normalizar todos los archivos de una carpeta:
 Escribe en la Terminal: ./normalize.sh /ruta/carpeta/origen /ruta/carpeta/destino -14 -1
-(-14 → nivel objetivo RMS en LUFS, -1 → True Peak máximo)
+
+-14 → nivel objetivo RMS en LUFS
+
+-1 → True Peak máximo
 
 Normalizar un solo archivo:
-Escribe en la Terminal: ./normalize.sh /ruta/archivo.mp3 /ruta/salida -16 0
+./normalize.sh /ruta/archivo.mp3 /ruta/salida -16 0
 
 ---
 
@@ -83,7 +131,7 @@ Si deseas citarlo:
 Creado por Álvaro Ponce
 Si quieres colaborar, mejorar o comentar algo, puedes abrir un Issue o un Pull Request en GitHub.
 
-🎵 Normalizator — porque todos los audios merecen sonar igual de bien.
+🎵 Normalizator
 
 
 
