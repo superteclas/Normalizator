@@ -1,4 +1,8 @@
-# Normalizator
+
+
+<img width="1024" height="1024" alt="logo" src="https://github.com/user-attachments/assets/0cd15adb-b810-4fe7-8a47-c3ae4d9b72c2" />
+
+# Normalizator 
 
 **Normalizator** — Programa para normalizar archivos de audio de forma rápida y sencilla.
 
