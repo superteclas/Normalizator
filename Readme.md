@@ -7,6 +7,18 @@ Ajusta los niveles de volumen (*LUFS*) y los picos máximos (*True Peak*) de for
 
 ---
 
+🧭 Historial del proyecto
+
+Normalizator 1.0 (Septiembre 2025)
+Versión original en script (Edit Editor) basada en bash + FFmpeg.
+Proyecto inicial de línea de comandos para normalizar audios.
+
+Normalizator 2.0 (Octubre 2025)
+Versión profesional reescrita en Xcode/SwiftUI, con interfaz nativa y motor integrado.
+
+---
+
+
 ## ✨ Novedades en la versión 2.0
 
 - Reescrita completamente en **SwiftUI (Xcode)**  
