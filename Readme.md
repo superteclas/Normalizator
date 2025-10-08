@@ -84,16 +84,7 @@ Entre ellos:
 
 **Compresión con pérdida:** MP3, AAC, Opus, Vorbis, WMA, AC3, etc.  
 **Sin pérdida:** FLAC, ALAC, APE, WAV, WavPack, DTS, TrueHD, etc.
----
 
-🧭 Historial del proyecto
-
-Normalizator 1.0 (2024)
-Versión original en script (Edit Editor) basada en bash + FFmpeg.
-Proyecto inicial de línea de comandos para normalizar audios.
-
-Normalizator 2.0 (2025)
-Versión profesional reescrita en Xcode/SwiftUI, con interfaz nativa y motor integrado.
 
 ---
 
